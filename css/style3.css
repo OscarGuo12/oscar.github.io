@@ -1,0 +1,127 @@
+body{
+    background-color: #D0E1F9;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#innergrid, bdsc, home, aboutme, culture, gallery, main, contact, pictures, text, pic1, pic2, pic3, pic4, pic5, pic6, family, dog, dog2, primary, intermediate, college{
+    border: 1px solid black
+}
+#innergrid{
+    grid-area: logo;
+    border: 1px solid black;
+}
+#innergrid{
+    display: grid;
+    grid-template-areas: "bdsc home aboutme gallery culture contact";
+}
+#bdsc{
+    grid-area: bdsc;
+    border: 1px solid black;
+    text-align: center;
+}
+#home{
+    grid-area: home;
+    border: 1px solid black;
+    text-align: center;
+}
+#aboutme{
+    grid-area: aboutme;
+    border: 1px solid black;
+    text-align: center;
+}
+#culture{
+    grid-area: culture;
+    border: 1px solid black;
+    text-align: center;
+}   
+#gallery{
+    grid-area: gallery;
+    border: 1px solid black;
+    text-align: center;
+}
+#contact{
+    grid-area: contact;
+    border: 1px solid black;
+    text-align: center;
+}
+#main{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: "gallery gallery gallery gallery gallery gallery"
+                         "pictures pictures pictures pictures pictures pictures"
+                         "textt textt textt textt textt textt";
+    grid-column-gap: 20px
+}
+#pictures{
+    grid-area: pictures;
+    display: grid;
+    grid-template-areas: "pic1 pic2 pic3 pic4 pic5 pic6";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px
+}
+#pic1{
+    grid-area: pic1;
+    border: 1px solid black;
+    text-align: center;
+}
+#pic2{
+    grid-area: pic2;
+    border: 1px solid black;
+    text-align: center;
+}
+#pic3{
+    grid-area: pic3;
+    border: 1px solid black;
+    text-align: center;
+}
+#pic4{
+    grid-area: pic4;
+    border: 1px solid black;
+    text-align: center;
+}
+#pic5{
+    grid-area: pic5;
+    border: 1px solid black;
+    text-align: center;
+}
+#pic6{
+    grid-area: pic6;
+    border: 1px solid black;
+    text-align: center;
+}
+#textt{
+    grid-area: textt;
+    display: grid;
+    grid-template-areas: "family dog dog2 primary intermediate college";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px
+}
+#family{
+    grid-area: family;
+    border: 1px solid black;
+    text-align: center;
+}
+#dog{
+    grid-area: dog;
+    border: 1px solid black;
+    text-align: center;
+}
+#dog2{
+    grid-area: dog2;
+    border: 1px solid black;
+    text-align: center;
+}
+#primary{
+    grid-area: primary;
+    border: 1px solid black;
+    text-align: center;
+}
+#intermediate{
+    grid-area: intermediate;
+    border: 1px solid black;
+    text-align: center;
+}
+#college{
+    grid-area: college;
+    border: 1px solid black;
+    text-align: center;
+}

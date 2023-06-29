@@ -1,0 +1,50 @@
+body{
+    background-color: #D0E1F9;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#innergrid, bdsc, home, aboutme, culture, gallery, main, about, picture, strengths, contact{
+    border: 1px solid black
+}
+#innergrid{
+    grid-area: logo;
+    border: 1px solid black;
+}
+#innergrid{
+    display: grid;
+    grid-template-areas: "bdsc home aboutme gallery culture contact";
+}
+#bdsc{
+    grid-area: bdsc;
+    border: 1px solid black;
+    text-align: center;
+}
+#home{
+    grid-area: home;
+    border: 1px solid black;
+    text-align: center;
+}
+#aboutme{
+    grid-area: aboutme;
+    border: 1px solid black;
+    text-align: center;
+}
+#culture{
+    grid-area: culture;
+    border: 1px solid black;
+    text-align: center;
+}   
+#gallery{
+    grid-area: gallery;
+    border: 1px solid black;
+    text-align: center;
+}
+#contact{
+    grid-area: contact;
+    border: 1px solid black;
+    text-align: center;
+}
+#main{
+    grid-area: main;
+    text-align: center;
+    border: 1px solid black;
+}
